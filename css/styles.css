@@ -75,15 +75,10 @@ body {
 .photo {
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
 }
 
-.product-menu:not(:nth-child(3n)) {
-  margin-right: 24px;
-}
 
-.product-menu:not(:nth-last-child(-n + 3)) {
-  margin-bottom: 24px;
-}
 
 /* ========= HEADER ========= */
 
